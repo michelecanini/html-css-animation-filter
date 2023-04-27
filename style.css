@@ -130,3 +130,16 @@
     filter: saturate(20%);
 }
 
+.ex-10-icon{
+    animation: rotation 1.5s infinite linear;
+}
+
+@keyframes rotation{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
