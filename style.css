@@ -106,9 +106,19 @@
 }
 
 .ex-7-img{
-    transition: 5s;
+    transition: 4s;
 }
 
 .ex-7-img:hover{
-    filter: grayscale(100);
+    filter: grayscale(100%) brightness(120%);
 }
+
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: sepia(30);
+    border-radius: 20px;
+}
+
