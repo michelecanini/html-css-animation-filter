@@ -131,10 +131,10 @@
 }
 
 .ex-10-icon{
-    animation: rotation 1s infinite linear reverse;
+    animation: antiorario 1s infinite linear reverse;
 }
 
-@keyframes rotation{
+@keyframes antiorario{
     from {
       transform: rotate(0deg);
     }
@@ -143,3 +143,21 @@
     }
   }
 
+.ex-11-icon:hover{
+    animation: orario 2s linear;
+}
+
+@keyframes orario{
+
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    80% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+  }
