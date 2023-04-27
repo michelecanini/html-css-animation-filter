@@ -100,3 +100,7 @@
     width: 20px;
     height: 20px;
 }
+
+.ex-6-img:hover{
+    filter: grayscale(100);
+}
