@@ -2,6 +2,7 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: 2s;
 }
 .ex-2-square {
     width: 100px;
@@ -68,6 +69,8 @@
     height: 20px;
 }
 
-
 /*MY SOLUTIONS*/
 
+.ex-1-square:hover {
+    background-color: red;
+}
