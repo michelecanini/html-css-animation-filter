@@ -131,7 +131,7 @@
 }
 
 .ex-10-icon{
-    animation: rotation 1.5s infinite linear;
+    animation: rotation 1s infinite linear reverse;
 }
 
 @keyframes rotation{
